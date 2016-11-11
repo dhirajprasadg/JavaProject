@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring JDBC jar file/spring-jdbc-3.0.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring Transaction Jar for JDBC Template/spring-tx-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/persistCore/org.springframework.jdbc-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/persistCore/org.springframework.orm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/persistCore/org.springframework.transaction-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/persistCore/persistence.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/MySQLConnector/mysql-connector-java-5.1.21.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
