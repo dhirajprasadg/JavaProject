@@ -17,7 +17,7 @@ public class SampleController extends AbstractController {
 			HttpServletResponse response) throws Exception {
 
 		ModelAndView mav = new ModelAndView("hello");
-		mav.addObject("message", "Hello World!");
+		mav.addObject("message", "Hello World message !");
 		return mav;
 	}
 }
