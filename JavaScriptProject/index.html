@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="javaScriptSourceFile.js"></script>
+<script type="text/javascript">
+<!--
+	function sayHello() {
+		alert("Hello World")
+	}
+	var linebreak = "<br />";
+//-->
+</script>
+
+</head>
+<body>
+
+	<input type="button" onclick="sayHello()" value="Say Hello" />
+
+	<form>
+		<input type="button" onclick="sayHellooo()" value="Say Hello" />
+	</form>
+	<input type="button" onclick="checkscope()" value="Check Scope" />
+
+	<form>
+		<input type="button" onclick="sayHellozara('Zara', 7)"
+			value="Say Hello to zara">
+	</form>
+
+	<script lang="javascript" type="text/javascript">
+		document.write(linebreak);
+		document.write(" Hello World Example ");
+		document.write(linebreak);
+		document.writeln(" writeln text")
+		var c = "Test";
+
+		var var1 = 30;
+		var var2 = 50;
+		var var3 = var1 + var2;
+		document.write(linebreak);
+		document.write(" VarSum Value : " + var3);
+
+		var myVar = "global"; // Declare a global variable
+
+		function checkscope() {
+			var myVar = "local"; // Declare a local variable
+			document.write(myVar);
+		}
+		document.write(linebreak);
+		var age = 15;
+
+		if (age > 18) {
+			document.write("<b>Qualifies for driving</b>");
+		}
+
+		else {
+			document.write("<b>Does not qualify for driving</b>");
+		}
+	</script>
+
+
+</body>
+</html>
