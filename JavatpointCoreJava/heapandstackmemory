@@ -1,0 +1,35 @@
+http://javarevisited.blogspot.in/2013/01/difference-between-stack-and-heap-java.html
+ stack memory is used to store local variables and function call.
+ heap memory is used to store objects in Java.
+  Each Thread in Java has their own stack 
+  Variables stored in stacks are only visible to the owner Thread 
+  
+1) Objects are created on the heap in Java irrespective of their scope e.g. local or member variable. while it's worth noting that class variables or static 
+   members are created in method area of Java memory space and both heap and method area is shared between different thread.
+
+4) Garbage Collection in Java is carried by a daemon thread called Garbage Collector.
+
+5) Before removing an object from memory garbage collection thread invokes finalize() method of that object and gives an opportunity to perform any sort 
+  of cleanup required.
+
+6) You as Java programmer can not force garbage collection in Java; it will only trigger if JVM thinks it needs a garbage collection based on Java heap size.
+
+7) There are methods like System.gc() and Runtime.gc() which is used to send request of Garbage collection to JVM but it’s not guaranteed that garbage collection
+   will happen.
+   
+   An object becomes eligible for Garbage collection or GC if it's not reachable from any live threads or by any static references. OR object becomes eligible
+    for garbage collection if its all references are null. 
+   
+  Cyclic dependencies are not counted as the reference and so if they don't have any other live reference then both Objects A and B will be eligible for 
+  Garbage collection
+  
+  Generally, an object becomes eligible for garbage collection in Java on following cases:
+
+1) All references to that object explicitly set to null e.g. object = null
+
+2) The object is created inside a block and reference goes out scope once control exit that block.
+
+3) Parent object set to null if an object holds the reference to another object and when you set container object's reference null, child or contained object
+ automatically becomes eligible for garbage collection.
+
+4) If an object has only lived weak references via WeakHashMap it will be eligible for garbage collection.
