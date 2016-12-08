@@ -13,5 +13,50 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/antlr-2.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/classworlds-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/commons-chain-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/commons-digester-2.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/commons-validator-1.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/freemarker-2.3.15.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/json-lib-2.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/mysq.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/ognl-2.7.3.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/sslext-1.2-0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/struts2-convention-plugin-2.1.8.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/struts2-core-2.1.8.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/struts2-dojo-plugin-2.1.8.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/struts2-embeddedjsp-plugin-2.1.8.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/struts2-json-plugin-2.1.8.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/struts2-tiles-plugin-2.1.8.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/tiles-api-2.0.6.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/tiles-core-2.0.6.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/tiles-jsp-2.0.6.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Struts2 jar/struts2jars/xwork-core-2.1.6.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/core/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/web/com.springsource.org.apache.commons.fileupload-1.2.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/web/com.springsource.org.apache.commons.httpclient-3.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/web/com.springsource.org.codehaus.jackson.mapper-1.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/web/org.springframework.oxm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/web/org.springframework.web.portlet-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/web/org.springframework.web.servlet-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/web/org.springframework.web.struts-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="E:/Softwares/Spring 3.0.1.RELEASE-A Jar file/springjars/web/org.springframework.web-3.0.1.RELEASE-A.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

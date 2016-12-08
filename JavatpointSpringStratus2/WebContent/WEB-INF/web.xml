@@ -1,12 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
-  <display-name>JavatpointSpringStratus2</display-name>
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
-  </welcome-file-list>
-</web-app>
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<web-app version="2.5"   
+    xmlns="http://java.sun.com/xml/ns/javaee"   
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+    http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">  
+
+  <welcome-file-list>  
+    <welcome-file>index.jsp</welcome-file>  
+  </welcome-file-list>  
+<!--   It defines controller class for struts 2  -->
+  <filter>  
+    <filter-name>struts2</filter-name>  
+    <filter-class>  
+      org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter 
+	<!--2) StrutsPrepareAndExecuteFilter are controller in stratus 2 and it is invoked by container 
+        3) Controller gets the information for the action from the ActionMapper
+        4) Controller invokes the ActionProxy
+        5) ActionProxy gets the information of action and interceptor stack from the configuration manager which 
+           gets the information from the struts.xml file.
+        6) ActionProxy forwards the request to the ActionInvocation
+		7) ActionInvocation invokes each interceptors and action
+		8) A result is generated
+		9) The result is sent back to the ActionInvocation
+		10) A HttpServletResponse is generated
+		11) Response is sent to the user  --> 
+        
+    </filter-class>  
+  </filter>  
+ 
+ <!-- 1) Container filter-mapping is used to map the incoming request to get class name of controller  -->
+  <filter-mapping>  
+    <filter-name>struts2</filter-name>  
+    <url-pattern>/*</url-pattern>  
+  </filter-mapping>  
+    
+ <!-- Context-parm is used to check application context xml file . If we dont define context-parm inside web.xml
+ file then it takes default name of applicationContext.xml file located under WEB-INF file . If we dont 
+ create this file under it then it will use default value setup . to use <context-param> we need to use 
+ Listener class ContextLoaderListener of spring framework.
+ -->
+ 
+    <context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/spring/applicationcontextdhiraj.xml</param-value>
+	</context-param>
+    
+ <!-- ContextLoaderListener listener class makes connection between struts2 and spring application. -->
+	<listener>   
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>   
+	</listener>      
+    
+  </web-app> 
