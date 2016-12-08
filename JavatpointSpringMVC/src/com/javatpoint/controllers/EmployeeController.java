@@ -17,7 +17,7 @@ import com.javatpoint.daoImpl.EmployeeDaoImpl;
 public class EmployeeController {
 
 	EmployeeController() {
-		System.out.println(" Employee Controller object is created ");
+		System.out.println(" EmployeeController object is created ");
 	}
 
 	// Autowired means not setter method is required to set this variable value.

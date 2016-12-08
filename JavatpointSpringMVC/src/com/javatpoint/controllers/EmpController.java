@@ -14,7 +14,7 @@ import com.javatpoint.beans.Emp;
 @Controller  
 public class EmpController {  
     EmpController(){
-    	System.out.println(" All Controller object created when component scan class file from spring servelet is called");
+    	System.out.println(" All Controller object created when component scan class file from spring servlet.xml is loaded");
     }
 	
     @RequestMapping("/empform")  
