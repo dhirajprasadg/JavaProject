@@ -16,9 +16,9 @@
 	<p>Spring MVC Request Response Example // HttpServletRequest
 		request,HttpServletResponse res</p>
 	<form action="helloform.html" method="post">
-		Name:<input type="text" name="name" /><br /> Password:<input
-			type="password" name="password" /><br /> <input type="submit"
-			value="login" />
+	   	Name:<input type="text" name="name" /><br />
+		Password:<input type="password" name="password" /><br /> 
+		<input type="submit" value="login" />
 	</form>
 
 	<p>Spring MVC Form Example</p>

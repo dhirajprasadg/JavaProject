@@ -11,7 +11,11 @@ public class SuperExample extends Vehicle{
 		
 		System.out.println( " Bike 1 Max Gear : " + super.noofgear + " : " + noofgearbike1);
 	}
-	
+	//@Override below method is not overriden since it have String argument , in overriding you cant 
+	// change the return type 
+	void displayed(String name){
+		String na = name;
+	}
 	public static void main(String[] args) {
 		
 		
